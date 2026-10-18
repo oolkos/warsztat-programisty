@@ -1,0 +1,1 @@
+Polecenia ls oraz tree służą do przeglądania zawartości katalogów, przy czym ls wyświetla ją w formie tradycyjnej listy, a tree obrazuje strukturę plików w postaci czytelnego, wielopoziomowego drzewa. Z kolei polecenie cp przeznaczone jest do kopiowania danych, umożliwiając sprawne powielanie oraz przenoszenie wybranych plików i całych folderów w inne miejsca systemu.
