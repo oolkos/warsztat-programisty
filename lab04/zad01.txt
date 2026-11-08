@@ -1,0 +1,22 @@
+grep  "kot" tekst.txt
+Ala ma kota i psa.
+molkowski@lin-labA015-05:~/warsztat-programisty/lab04$ nano tekst.txt
+molkowski@lin-labA015-05:~/warsztat-programisty/lab04$ grep -v "Pies" tekst.txt
+Ala ma kota i psa.
+Kot lubi spać.
+Ala lubi zwierzęta.
+Zwierzęta są wspaniałe.
+Kot i pies to najlepsi przyjaciele.
+molkowski@lin-labA015-05:~/warsztat-programisty/lab04$ grep  "^Ala" tekst.txt
+Ala ma kota i psa.
+Ala lubi zwierzęta.
+molkowski@lin-labA015-05:~/warsztat-programisty/lab04$ grep  ".$" wiersz.txt
+1. Wlazł kotek na płotek i mruga,
+2. ładna to piosenka niedługa.
+3. Nie ma jak kotek mały,
+4. gdy patrzy w świat cały.
+molkowski@lin-labA015-05:~/warsztat-programisty/lab04$ grep -i  "pies" tekst.txtPies biega po ogrodzie.
+Kot i pies to najlepsi przyjaciele.
+molkowski@lin-labA015-05:~/warsztat-programisty/lab04$ grep -w  "kot" tekst.txt
+molkowski@lin-labA015-05:~/warsztat-programisty/lab04$ grep -v  "" wiersz.txt
+molkowski@lin-labA015-05:~/warsztat-programisty/lab04$ grep . wiersz.txt

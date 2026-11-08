@@ -1,0 +1,17 @@
+grep "^[A-Z]" wiersz.txt
+molkowski@lin-labA015-05:~/warsztat-programisty/lab04$ nano wiersz.txt
+molkowski@lin-labA015-05:~/warsztat-programisty/lab04$ grep "^[A-Z]" wiersz.txt
+molkowski@lin-labA015-05:~/warsztat-programisty/lab04$ grep "[0-9]" wiersz.txt
+1. Wlazł kotek na płotek i mruga,
+2. ładna to piosenka niedługa.
+3. Nie ma jak kotek mały,
+4. gdy patrzy w świat cały.
+molkowski@lin-labA015-05:~/warsztat-programisty/lab04$ grep -iE "[aąeęioóuy]{2}" wiersz.txt
+2. ładna to piosenka niedługa.
+3. Nie ma jak kotek mały,
+4. gdy patrzy w świat cały.
+molkowski@lin-labA015-05:~/warsztat-programisty/lab04$ grep -e "kot|pies" tekst.txt
+molkowski@lin-labA015-05:~/warsztat-programisty/lab04$ grep  "kot|pies" tekst.txt
+molkowski@lin-labA015-05:~/warsztat-programisty/lab04$ grep -E "kot|pies" tekst.txt
+Ala ma kota i psa.
+Kot i pies to najlepsi przyjaciele.
